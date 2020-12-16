@@ -4,11 +4,11 @@ var generateBtn = document.querySelector("#generate");
 function writePassword() {
   var password = generatePassword();
   var passwordText = document.querySelector("#password");
-
   passwordText.value = password;
-
 }
 
+
+// contains values for populating specified password
 generateBtn.addEventListener("click", writePassword);
 var numericCharacters =  ['0', '1', '2', '3', '4', '5', '6', '7', '8', '9'];
 var specialCharacters = [  '@',  '%',  '+',  '\\',  '/',  "'",  '!',  '#',  '$',  '^',  '?',  ':',  ',',  ')',  '(',  '}',  '{',  ']',  '[',  '~',  '-',  '_',  '.'];
@@ -21,7 +21,10 @@ function randomize(array){
   return randomCharacter
 }
 
+// contains funtion prompting for type of password needed
 function userInput() {
+
+// prompts regarding the length of password needed
 var characters =parseInt(prompt("How many characters would you like to include in your password?"))
 if (characters<8){
   alert("Password needs to be longer than 8 characters!") 
@@ -36,8 +39,8 @@ if (isNaN(characters)===true){
   alert("Need to input a number between 8-128")
   return
 }
-}
  
+// prompts for the type of password needed
 var hasLowercase = confirm("Would you like to include lowercase letters?")
 var hasUppercase = confirm("Would you like to include uppercase letters?")
 var hasSpecialCharacters = confirm("Would you like to include special letters?")
@@ -53,14 +56,15 @@ var userChoices = {
 
 console.log (userChoices) 
   return userChoices
+}
 
-
+// contains function for generating password after prompts
 function generatePassword() {
   var userOptions = userInput()
   var newPassword = []
   var possibleCharacters = []
 
-
+// utilizing allowed characters to create password as prompted
 if (userOptions.hasNumbers) {
   possibleCharacters = possibleCharacters.concat(numericCharacters)
   possibleCharacters.push(randomize(numericCharacters))
@@ -87,12 +91,7 @@ for(var i=0; i<userOptions.characters;i++){
   newPassword.push(possible)
 }
 
+// returns password to specified field
 return newPassword.join("")
 }
-
-
-
-// generate password function (takes in user input uses randomize function push to array and return)
-
-
 

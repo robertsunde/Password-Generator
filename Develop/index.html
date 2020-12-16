@@ -10,44 +10,25 @@
 </head>
 
 <body>
+
+  <!-- Wrapper class contains the header for "Password Generator" -->
   <div class="wrapper">
-    <header>
+    <header class="container group">
       <h1 class="title">Password Generator</h1>
     </header>
-    <div class="card">
+
+    <!-- Contains the second "card group" -->
+    <div class="card group">
       <div class="card-header">
         <h2>Generate a Password</h2>
       </div>
 
-      <!-- <div class="requirements">
-        <label for="passwordlength">Password Length</label>
-        <input type="number" id="length" min="8" max="128" value="8">
-      </div>
-
-      <div class="requirements">
-        <label for="lowercase">Lowercase Letters</label>
-        <input type="checkbox" id="lowercase" checked />
-      </div>
-
-      <div class="requirements">
-        <label for="uppercase">Uppercase Letters</label>
-        <input type="checkbox" id="uppercase" checked />
-      </div>
-
-      <div class="requirements">
-        <label for="specialcharacters">Special Characters</label>
-        <input type="checkbox" id="specialcharacters" checked />
-      </div>
-
-      <div class="requirements">
-        <label for="numbers">Numbers</label>
-        <input type="checkbox" id="numbers" checked />
-      </div> -->
-
-
+      <!-- Area that password shows in after prompts -->
       <div class="card-body">
         <textarea readonly id="password" placeholder="Your Secure Password" aria-label="Generated Password"></textarea>
       </div>
+
+      <!-- Contains button for generating password -->
       <div class="card-footer">
         <button id="generate" class="btn">Generate Password</button>
       </div>
