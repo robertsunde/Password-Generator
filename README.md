@@ -13,7 +13,7 @@ Upon loading, a box in the center of the screen displays a button titled "Genera
 ![home-screen](https://user-images.githubusercontent.com/73792987/102440615-9042df00-3fee-11eb-85fc-b71d229ece7f.jpg)
 
 Next, you must click the "Generate Password" button as circled in red.
-![generate password](assets/generate-password.jpg)
+![click-generate-password](https://user-images.githubusercontent.com/73792987/102440750-d1d38a00-3fee-11eb-9169-5f6923dc16f2.jpg)
 
 Next, you will be prompted to enter a password length. The number of characters entered in this prompts must be between 8 and 128 characters.
 ![enter-characters](https://user-images.githubusercontent.com/73792987/102440703-bd8f8d00-3fee-11eb-8586-586c797ffca6.jpg)
