@@ -10,7 +10,7 @@ The content is available over the internet and does not require installation of 
 The web application is designed with common password criteria in mind. 
 
 Upon loading, a box in the center of the screen displays a button titled "Generate Password" as shown below.
-![home screen](assets/home-screen.jpg)
+![home-screen](https://user-images.githubusercontent.com/73792987/102440615-9042df00-3fee-11eb-85fc-b71d229ece7f.jpg)
 
 Next, you must click the "Generate Password" button as circled in red.
 ![generate password](assets/generate-password.jpg)
