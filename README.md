@@ -22,7 +22,8 @@ Afterwards, follow the prompts required in order to create a unique password.
 ![follow-prompts](https://user-images.githubusercontent.com/73792987/102440794-e879e100-3fee-11eb-9902-0dae6d1d3c62.jpg)
 
 Finally, your password will be revealed as shown based on the prior selected prompts.
-![password reveal](assets/password-reveal.jpg)
+![password-reveal](https://user-images.githubusercontent.com/73792987/102440862-0cd5bd80-3fef-11eb-87a8-49c955a3063e.jpg)
+
 
 
 ## Credits
