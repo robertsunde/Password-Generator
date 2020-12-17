@@ -16,7 +16,7 @@ Next, you must click the "Generate Password" button as circled in red.
 ![generate password](assets/generate-password.jpg)
 
 Next, you will be prompted to enter a password length. The number of characters entered in this prompts must be between 8 and 128 characters.
-![enter characters](assets/enter-characters.jpg)
+![enter-characters](https://user-images.githubusercontent.com/73792987/102440703-bd8f8d00-3fee-11eb-8586-586c797ffca6.jpg)
 
 Afterwards, follow the prompts required in order to create a unique password.
 ![follow prompts](assets/follow-prompts.jpg)
