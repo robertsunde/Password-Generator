@@ -1,5 +1,5 @@
 # Password-Generator
-Password Generator
+https://robertsunde.github.io/Password-Generator/
 
 
 ## Installation
@@ -10,19 +10,19 @@ The content is available over the internet and does not require installation of 
 The web application is designed with common password criteria in mind. 
 
 Upon loading, a box in the center of the screen displays a button titled "Generate Password" as shown below.
-![plot](./assets/home-screen.jpg)
+![home screen](assets/home-screen.jpg)
 
 Next, you must click the "Generate Password" button as circled in red.
-![plot](./assets/generate-password.jpg)
+![generate password](assets/generate-password.jpg)
 
 Next, you will be prompted to enter a password length. The number of characters entered in this prompts must be between 8 and 128 characters.
-![plot](./assets/enter-characters.jpg)
+![enter characters](assets/enter-characters.jpg)
 
 Afterwards, follow the prompts required in order to create a unique password.
-![plot](./assets/follow-prompts.jpg)
+![follow prompts](assets/follow-prompts.jpg)
 
 Finally, your password will be revealed as shown based on the prior selected prompts.
-![plot](./assets/password-reveal.jpg)
+![password reveal](assets/password-reveal.jpg)
 
 
 ## Credits
